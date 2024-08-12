@@ -1,0 +1,14 @@
+
+State Machine - |processador|ctrl_unt:CtrlU|Controler:Ctrl|stateReg
+Name stateReg.LDAI stateReg.Saltar stateReg.JumpIfZero stateReg.Subtract stateReg.LoadConst stateReg.Add stateReg.Store stateReg.Load stateReg.Decode stateReg.Fetch stateReg.Init 
+stateReg.Init 0 0 0 0 0 0 0 0 0 0 0 
+stateReg.Fetch 0 0 0 0 0 0 0 0 0 1 1 
+stateReg.Decode 0 0 0 0 0 0 0 0 1 0 1 
+stateReg.Load 0 0 0 0 0 0 0 1 0 0 1 
+stateReg.Store 0 0 0 0 0 0 1 0 0 0 1 
+stateReg.Add 0 0 0 0 0 1 0 0 0 0 1 
+stateReg.LoadConst 0 0 0 0 1 0 0 0 0 0 1 
+stateReg.Subtract 0 0 0 1 0 0 0 0 0 0 1 
+stateReg.JumpIfZero 0 0 1 0 0 0 0 0 0 0 1 
+stateReg.Saltar 0 1 0 0 0 0 0 0 0 0 1 
+stateReg.LDAI 1 0 0 0 0 0 0 0 0 0 1 
